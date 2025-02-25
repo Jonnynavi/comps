@@ -3,3 +3,8 @@
 button > svg {
     margin-right: 5px;
 }
+
+button {
+    cursor: pointer;
+  }
+  

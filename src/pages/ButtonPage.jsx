@@ -3,13 +3,13 @@ import { GoBell, GoCloudDownload, GoArrowDown } from "react-icons/go";
 
 
 function ButtonPage(){
-  return <div>
-    <Button primary rounded outline><GoBell />Click me!!</Button>
-    <Button secondary outline><GoArrowDown/>Click me!!</Button>
-    <Button success rounded><GoCloudDownload />Click me!!</Button>
-    <Button warning>Click me!!</Button>
-    <Button danger>Click me!!</Button>
-    <Button>Click me!!</Button>
+  return <div className='flex-auto'>
+    <Button primary rounded outline className="mb-3"><GoBell />Click me!!</Button>
+    <Button secondary outline className="mb-3"><GoArrowDown/>Click me!!</Button>
+    <Button success rounded className="mb-3"><GoCloudDownload />Click me!!</Button>
+    <Button warning className="mb-3">Click me!!</Button>
+    <Button danger className="mb-3">Click me!!</Button>
+    <Button className="mb-3">Click me!!</Button>
 
   </div>;
 }
