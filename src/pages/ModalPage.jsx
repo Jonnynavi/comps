@@ -29,7 +29,7 @@ function ModalPage(){
             <Button primary onClick={handleClick} >Open Modal</Button>
             {showModal && modal}
         </div>
-    )
-}
+    );
+};
 
 export default ModalPage;
